@@ -1,0 +1,13 @@
+language: cpp
+sudo: required
+dist: trusty
+compiler:
+- clang
+os:
+- linux
+
+before_install:
+- echo $LANG
+- echo $LC_ALL
+script:
+- cmake . && make -j8
