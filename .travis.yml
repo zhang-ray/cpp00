@@ -9,5 +9,6 @@ os:
 before_install:
 - echo $LANG
 - echo $LC_ALL
+- echo $PWD
 script:
-- cmake . && make -j8
+- cd ../ && mkdir build-cpp00 && cd build-cpp00 && cmake ../cpp00 && make -j8
