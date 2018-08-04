@@ -5,6 +5,7 @@ before_build:
   - cmd: mkdir ..\build
   - cmd: cd ..\build
   - cmd: cmake ..\cpp00
+  - cmd: cd ..\cpp00
 
 build:
   project: ..\build\cpp00.sln
