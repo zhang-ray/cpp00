@@ -10,3 +10,9 @@ build:
   project: ..\build\cpp00.sln
   parallel: true
   #verbosity: quiet
+
+after_build:
+  - cmd: 7z a build.7z ..\build
+
+artifacts:
+  - path: .\build.7z
