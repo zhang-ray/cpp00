@@ -15,4 +15,4 @@ after_build:
   - cmd: 7z a build.7z ..\build
 
 artifacts:
-  - path: .\build.7z
+  - path: build.7z
