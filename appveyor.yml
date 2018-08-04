@@ -9,4 +9,4 @@ before_build:
 build:
   project: ..\build\cpp00.sln
   parallel: true
-  verbosity: quiet
+  #verbosity: quiet
